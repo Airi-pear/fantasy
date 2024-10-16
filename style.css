@@ -380,7 +380,7 @@ footer{
 }
     .menu-open  header nav ul{
                 opacity: 1;
-                margin-top: 50px;
+                height:80vh;
     }
 
 .nav-button {
