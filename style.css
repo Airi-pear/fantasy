@@ -1,0 +1,516 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+figure img, figure iframe, h1 img,li img{
+    width: 100%;
+    height: auto;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top:85px;
+    font-size: 62.5%
+}
+body{
+        font-family: "Sawarabi Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #231F20;
+    background-color: #EFEFEF;
+}
+.catch span{
+    font-size: 40px;
+}
+.mv .human{
+  z-index: 1;
+    width: 369px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+h2{
+margin-bottom: 30px;
+    padding: 15px 30px;
+    text-align: right;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 60%;
+    position: relative;
+    right: 31%;
+    font-weight: bold;
+      background: rgba(235, 203, 70, 1.00);
+}
+
+h3,.re-gree{
+    margin-bottom: 20px;
+}
+.box .CEO img{
+        width: 250px;
+}
+.box .greeting-text{
+    width:60%;
+}
+
+ul{
+  list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #231F20;
+}
+
+
+section p{
+    line-height: 1.5;
+}
+header{
+    position: relative;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 8.5rem;
+    z-index: 1;
+ 
+}
+section{
+    max-width:1100px;
+    width:100%;
+    margin: 30px auto 70px;
+    padding:0 5rem;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+header nav{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px;
+    position: fixed;
+    top: 20px;
+    right: 0;
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 10;
+
+}
+header nav a:hover{
+    background-color: rgba(235,203,70,1.00);
+    border-radius: 30px;
+    transition: 0.7s;
+}
+
+.mv{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+  background: linear-gradient(-45deg,#20B8CB, #80B9CA, #EBE1BC, #a5eeff) fixed;
+  background-size: 800% 800%;
+  animation: GradietionAnimation 18s ease infinite;
+}
+.mv-bottom{
+    opacity: 0.7;
+}
+
+@keyframes GradietionAnimation { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+.mv figure{
+    width:100%;
+    z-index: 2;
+    position: absolute;
+    bottom:0
+}
+#yokohama2
+{
+    position: absolute;
+    width: 52%;
+    top: 30%;
+    right: 5%;
+    z-index: 1;
+    opacity: 0.3;
+    
+}
+.map-text{
+  text-align: right;
+}
+
+
+.mv .catch{
+   font-family: "Monomaniac One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 6rem;
+    position: absolute;
+    width:70%;
+    top: 25%;
+    left: 5%;
+    z-index:4;
+    text-align:left;
+    
+}
+.kumo{
+    width: 16%;
+    position: absolute;
+    top: 45%;
+    left: 22%;
+     min-width: 130px;
+}
+.kumo2{
+  position: absolute;
+    top: 10%;
+    width: 30%;
+    min-width: 152px;
+}
+
+
+.concept h3{
+      color: rgba(235, 203, 70, 1.00);
+    text-shadow: 1px 1px 0 #1B1464, -1px -1px 0 #1B1464, -1px 3px 0 #1B1464, 1px -1px 0 #1B1464, 0px 1px 0 #1B1464, 0 -1px 0 #1B1464, -1px 0 0 #1B1464, 1px 0 0 #1B1464;
+}
+
+
+
+
+iframe{
+    aspect-ratio:600 / 300 ;
+}
+header nav ul{
+    display: flex;
+        justify-content: space-around;
+    
+}
+nav ul a{
+    padding:10px 20px;
+}
+
+footer nav ul{
+  display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding:20px;
+}
+footer nav ul a{
+        display: block;
+    margin-bottom: 20px;
+}
+footer nav ul a:hover{
+    font-weight: bold;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 50px;
+}
+.flex-area .box:nth-child(even){
+    flex-direction: row-reverse;
+}
+.concept-text{
+    width:50%;
+    margin-top:20px;
+    
+}
+
+.go-top{
+    position: fixed;
+    z-index:10;
+    bottom:15px;
+    right: 5px;
+       opacity: 0.5;
+        transition: 0.5s;
+    width:100px;
+    display: none;
+}
+.go-top img{
+    filter: drop-shadow(2px 2px 5px #EFEFEF);
+}
+.go-top:hover{
+    opacity: 1;
+
+}
+.sp-only{
+    width:70px;
+    display: none;
+        margin:auto;
+}
+
+
+.infra,.bond,.system{
+    margin-bottom: 1em;
+     border-left:  1px solid #1B1464;
+    padding-left: 1rem;
+}
+
+.service ul{
+    width:250px;
+}
+.service li{
+    font-size: 14px;
+    padding-bottom:0.5em;
+    
+}
+.recruit dl,.company dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+    font-size:15px;
+}
+
+.recruit dt,.company dt {
+  width: 20%;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+     background-color: rgb(220 220 220);
+}
+
+.recruit dd,.company dd {
+  width: 70%;
+  padding:10px 20px;
+  background-color: #F3F3F3;
+  margin-bottom: 10px;
+}
+
+#servicesp{
+    display: none;
+}
+.wave1{
+    margin-top: -15%;
+    margin-bottom: -20%;
+}
+.wave2{
+     margin-top: -6%;
+    margin-bottom: -8%;
+}
+
+footer{
+  background-color: rgba(255,255,255,1.00);
+    padding:100px 20px 50px;
+    margin-top: 140px;
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+}
+.logo-circle{
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    left: 50%;
+    top: -25%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 19px;
+}
+
+#privacy .mv {
+    
+    height: 40vh;
+}
+
+@media (max-width:900px){
+    header nav {
+        position: fixed;
+        left: 100%;
+        bottom: -100%;
+        width: 0%;
+        background-color: #fff;
+        padding: 50px 0 0 0;
+        transition: 0.5s;
+}
+      .menu-open nav{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+      height: 100%;
+    border-top-left-radius: 100px;
+  }
+    header{
+        position: absolute;
+    }
+    nav ul{
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+        
+
+    }
+    .logo-circle {
+    top: -10%;
+}
+    
+#yokohama2
+{width: 60%;
+    top: 50%;
+    
+}
+
+    .go-top{
+    bottom:15px;
+    left: 15px;
+}
+    .go-top img{
+        width:90px;
+    }
+    header nav ul{
+                opacity: 0;
+        transition: 0.5s;
+    }
+   header nav ul a {
+    margin: 5px;
+}
+    .sp-only{
+    display: block;
+}
+    .menu-open  header nav ul{
+                opacity: 1;
+                margin-top: 50px;
+    }
+
+.nav-button {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 11;
+    background-color: #fff;
+    border-top-left-radius: 60px;
+    
+}
+
+  
+.nav-button span {
+  width: 35px;
+  height: 3px;
+  background-color: #1B1464;
+  position: absolute;
+  left: 25px;
+      transition: 0.5s;
+    border-radius: 2px;
+}
+.nav-button span:nth-child(1) {
+  top: 22px;
+}
+.nav-button span:nth-child(2) {
+  top: 33px;
+}
+.nav-button span:nth-child(3) {
+  top: 44px;
+}
+
+
+  .menu-open .nav-button span:nth-child(1){
+    top:23px;
+    transform: rotate(315deg);
+  }
+  .menu-open .nav-button span:nth-child(2){
+width:0;
+left:50%;
+
+  }
+.menu-open .nav-button span:nth-child(3){
+    top:23px;
+    transform: rotate(-315deg);
+  }
+    header nav ul a{
+        display: block;
+    font-size: 18px;
+    text-align: center;
+        padding:20px;
+    }
+    .mv{
+               height: 55vh;
+    }
+    #servicebox{
+    flex-wrap: wrap;
+    }
+  
+}
+
+
+
+@media (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+    section{
+        width:90%;
+        padding:0;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .flex-area .box:nth-child(even) {
+    flex-direction: column;
+}
+    .concept-text,.box .greeting-text{
+        width:100%;
+    }
+    .concept-img{
+        width:60%;
+        min-width: 200px;
+        margin:30px auto;
+    }
+    .mv .human {
+    width: 271px;
+    }
+    
+    h2{
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 5px;
+         border-top-left-radius: 5px;
+    border-bottom-left-radius: 30px;
+    width: 80%;
+    position: relative;
+        right: 0;
+}
+        #servicesp{
+        display: block;
+    }
+    #servicepc{
+        display: none;
+    }
+    .box .CEO img {
+ margin: 0 auto;
+}
+    .box .CEO{
+        margin: 0 auto 30px;
+    }
+    #yokohama2
+{
+    width: 100%;
+    top: 55%;
+    
+}
+    .mv .catch{
+            top: 20%;
+    }
+    .recruit .mv .catch{
+        background-color: rgba(255,255,255,0.37);
+    }
+    #privacy   .mv .catch {
+        top: 35%;
+    }
+
+}

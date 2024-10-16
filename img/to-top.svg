@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="99.121" height="101.794" viewBox="0 0 99.121 101.794">
+  <g id="グループ_5" data-name="グループ 5" transform="translate(-1791 -956)">
+    <path id="blob" d="M14.171-49.943C21.3-41.128,25.15-31.191,27.715-20.532s3.847,22.118-.561,30.853C22.746,18.976,12.648,24.906,1.91,28.513A70.418,70.418,0,0,1-32.229,31.4c-12.181-1.923-25.324-7.132-31.655-16.829-6.331-9.777-6.01-23.962-3.526-37.826,2.4-13.864,6.972-27.327,16.268-35.822s23.32-11.941,35.582-9.777S7.119-58.839,14.171-49.943Z" transform="translate(1860.066 1025.486)" fill="#00aeef"/>
+    <g id="グループ_1" data-name="グループ 1" transform="translate(1823.732 981.644)">
+      <line id="線_1" data-name="線 1" y2="45.555" transform="translate(16.829 5.439)" fill="none" stroke="#fff" stroke-width="9"/>
+      <line id="線_2" data-name="線 2" x1="16.829" y2="15.971" transform="translate(0 2.72)" fill="none" stroke="#fff" stroke-width="8"/>
+      <line id="線_3" data-name="線 3" x2="16.829" y2="15.971" transform="translate(16.829 2.72)" fill="none" stroke="#fff" stroke-width="8"/>
+      <ellipse id="楕円形_1" data-name="楕円形 1" cx="3.5" cy="3" rx="3.5" ry="3" transform="translate(13.268 -1.644)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
